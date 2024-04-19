@@ -3,6 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.cabecalho{
+    display: flex;
+}
+.container{
+    display: flex;
+  
+    background-color: #5835d8;
+    width: 100%;
+    height: 200px;
+   flex-wrap: wrap;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    border-radius: 0.4em;
+}
+.box1{
+    flex-grow: 1;
+    background-color: rgb(16, 54, 54);
+}
+.box2{
+    flex: 1 2 200px;
+    background-color: rgb(36, 16, 54);
+}
+.box3{
+    flex-shrink: 2;
+    background-color: rgb(54, 16, 16);
+}
+.box4{
+    flex-shrink: 1;
+    background-color: rgb(24, 54, 16);
+}
 
 
