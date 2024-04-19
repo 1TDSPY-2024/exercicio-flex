@@ -3,37 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
-.cabecalho{
+#topo{
     display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 4em;
+    height: 200px;
+    flex-direction: row;
+    background-color: rgb(20, 18, 13);
+    justify-content: space-between;
+    padding: 2em;
+}
+#topo nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 1.2em;
+}
+
+#topo nav ul li a{
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(63, 63, 63);
+    text-decoration: none;
+    color: #fff;
+}
+#topo nav ul li a:hover{ 
+    transform: scale(1.1);
+    transition:all .4s ease-out;
+    color: #000000;
+    background-color: rgb(180, 180, 180);
 }
 .container{
     display: flex;
-  
-    background-color: #5835d8;
     width: 100%;
+    justify-content: center;
+    align-items: center;
     height: 200px;
+    gap:2em;
    flex-wrap: wrap;
 }
 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
     width: 100px;
-    height: 100px;
+    height: 60px;
     color: #fff;
     border-radius: 0.4em;
 }
 .box1{
-    flex-grow: 1;
-    background-color: rgb(16, 54, 54);
+   
+    background-color: rgb(58, 131, 131);
 }
 .box2{
-    flex: 1 2 200px;
-    background-color: rgb(36, 16, 54);
+    
+    background-color: rgb(99, 60, 133);
 }
 .box3{
-    flex-shrink: 2;
+  
     background-color: rgb(54, 16, 16);
 }
 .box4{
-    flex-shrink: 1;
+ 
     background-color: rgb(24, 54, 16);
 }
 
