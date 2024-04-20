@@ -3,6 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    display: flex;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+        width: 100px;
+        height: 100px;
+        color: white;
+    }
+.box1{
+    background-color: rgb(255, 169, 183);
+
+}
+.box2{
+    background-color: rgb(255, 111, 236);
+}
+.box3{
+    background-color: rgb(255, 135, 199);
+}
+.box4{
+    background-color:lightcoral;
+}
+#topo{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.link
+
+    
+
+
 
 
 
