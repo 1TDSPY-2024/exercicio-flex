@@ -56,6 +56,8 @@
     background-color: #6e7d6e;
 }
 
+<<<<<<< HEAD
+=======
 
 #titulo{
     text-align: center;
@@ -89,6 +91,7 @@
 
 
 
+>>>>>>> e00d9b7e3a46bc27285251a8441e735039a5b216
 /* .container{
     display: flex;
     background-color: #5d30da;
@@ -128,3 +131,25 @@
     flex-shrink: 1;
 }
  */
+title {
+    text-align: center;
+    margin: 3%;
+}
+
+.pets figure img{
+    max-width: 100%;
+    display: block;
+}
+.pets {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin:  0 auto;
+}
+.pets figure {  
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    margin: 5px;
+
+}
