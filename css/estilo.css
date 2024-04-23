@@ -39,10 +39,29 @@
 }
 
 
+#titulo{
+    text-align: center;
+    margin: 3%;
+}
 
+.pets figure img{
+    max-width: 100%;
+    display: block;
+}
 
+.pets{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
 
-
+.pets figure{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    margin: 5px;
+}
 
 
 
